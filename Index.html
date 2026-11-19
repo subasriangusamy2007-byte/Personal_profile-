@@ -1,66 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #244b80;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #183653;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        section, article {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #244b80;
+        }
+
+        footer {
+            background-color: #183653;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>My Personal Profile</h1>
-        <p>Welcome to my profile page!</p>
-    </header>
+<header>
+    <h1>My Personal Profile</h1>
+    <p>Welcome to my profile page!</p>
+</header>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-    </nav>
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+</nav>
 
-    <main>
+<main>
 
-        <section id="about">
-            <h2>About Me</h2>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Your Name.
+        I am a Computer Science student.</p>
+    </section>
 
-            <article>
-                <h3>About Me Details</h3>
-                <p>
-                    Hello! My name is Your Name.
-                    I am a Computer Science student.
-                </p>
-            </article>
-        </section>
+    <section id="education">
+        <h2>Education</h2>
+        <p>I am studying Computer Science.</p>
+    </section>
 
-        <section id="education">
-            <h2>Education</h2>
+    <article id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>Java</li>
+            <li>C Programming</li>
+        </ul>
+    </article>
 
-            <article>
-                <h3>My Education Details</h3>
-                <p>
-                    I am studying Computer Science.
-                </p>
-            </article>
-        </section>
+</main>
 
-        <section id="skills">
-            <h2>My Skills</h2>
-
-            <article>
-                <h3>My Technical Skills</h3>
-                <p>
-                    HTML, Java, C Programming.
-                </p>
-            </article>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>Copyright 2026 My Personal Profile</p>
-    </footer>
+<footer>
+    <p>Copyright 2026 My Personal Profile</p>
+</footer>
 
 </body>
 </html>
